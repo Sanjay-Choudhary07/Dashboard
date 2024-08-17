@@ -1,0 +1,13 @@
+.checkbox-container {
+    cursor: pointer;
+    margin-right: 0.5rem; 
+  }
+  
+  .checkbox-checked {
+    color: #3b82f6;
+  }
+  
+  .checkbox-unchecked {
+    color: #6b7280;
+  }
+  

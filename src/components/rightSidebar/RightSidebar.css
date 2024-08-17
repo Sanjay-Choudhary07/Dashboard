@@ -1,0 +1,75 @@
+/* LeftModal.css */
+.left-modal-container {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 40%;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.left-modal-button-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-modal-widget-list {
+  display: flex;
+  flex-direction: column;
+  margin: 12px 16px;
+  padding: 12px;
+}
+
+.left-modal-widget-item {
+  display: flex;
+  align-items: baseline;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.left-modal-widget-text {
+  margin-left: 8px;
+  color: #4a5568; /* Gray color */
+}
+
+.left-modal-widget-text.selected {
+  color: #3182ce; /* Blue color */
+}
+
+.left-modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 10px 30px;
+}
+
+.left-modal-footer-button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  color: white;
+  margin-right: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.left-modal-footer-button.confirm {
+  background-color: #48bb78; /* Green color */
+}
+
+.left-modal-footer-button.confirm:hover {
+  background-color: #38a169; /* Darker green */
+}
+
+.left-modal-footer-button.cancel {
+  background-color: #f56565; /* Red color */
+}
+
+.left-modal-footer-button.cancel:hover {
+  background-color: #e53e3e; /* Darker red */
+}
